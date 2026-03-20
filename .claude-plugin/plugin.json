@@ -1,0 +1,20 @@
+{
+  "name": "wize-doc",
+  "version": "1.0.0",
+  "description": "Generate business-focused feature documentation from code, Linear MCP, and Notion MCP. Saves markdown under the backend Documentation/features directory.",
+  "author": {
+    "name": "Workwize"
+  },
+  "homepage": "https://github.com/workwize/workwize",
+  "license": "MIT",
+  "keywords": [
+    "documentation",
+    "linear",
+    "notion",
+    "business-rules",
+    "mcp"
+  ],
+  "commands": "./commands/",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

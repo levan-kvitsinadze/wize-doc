@@ -1,0 +1,12 @@
+---
+description: When the user asks to document a feature for stakeholders, follow the wize-doc skill — business rules first; use Linear MCP and Notion MCP (not the legacy documentation bundle); save to wize-back/Documentation/features/.
+alwaysApply: false
+---
+
+# Wize Doc
+
+For "document {feature}", PRD-style summaries, or business documentation:
+
+- Load `skills/document/SKILL.md` in this plugin.
+- Use **Linear** and **Notion** hosted MCP tools for tickets and pages.
+- List and save feature docs as markdown under `wize-back/Documentation/features/` using workspace file tools.
