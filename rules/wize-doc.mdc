@@ -7,6 +7,8 @@ alwaysApply: false
 
 For "document {feature}", PRD-style summaries, or business documentation:
 
-- Follow **`agents/wize-doc.md`** (orchestrator) and the **`skills/code-explorer/SKILL.md`** then **`skills/doc-writer/SKILL.md`** steps in this plugin.
+- Follow **`commands/document.md`** — it handles both creating new docs and updating existing ones.
+  - **Create**: code exploration (`skills/code-explorer/SKILL.md`) → optional Linear/Notion → write (`skills/doc-writer/SKILL.md`)
+  - **Update**: read existing doc → change description → optional re-explore → revise (`skills/doc-updater/SKILL.md`)
 - Use **Linear** and **Notion** hosted MCP tools for tickets and pages.
 - Write feature docs as markdown under `wize-back/Documentation/features/` using workspace file tools.
