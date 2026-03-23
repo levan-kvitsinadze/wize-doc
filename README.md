@@ -44,6 +44,22 @@ claude --plugin-dir ./wize-doc/
 
 That loads **`wize-doc`** directly from this folder (the one that contains [`.claude-plugin/plugin.json`](.claude-plugin/plugin.json)).
 
+**Validate the manifest** with Claude Code’s CLI. The path is **relative to your shell’s current directory**:
+
+- Already **inside** this repo (`…/wize-doc`): use **`.`**, not `./wize-doc` (otherwise it looks for `wize-doc/wize-doc` and fails).
+
+```bash
+cd /path/to/workwize/wize-doc
+claude plugin validate .
+```
+
+- From the **Workwize monorepo root** (`…/workwize`):
+
+```bash
+cd /path/to/workwize
+claude plugin validate ./wize-doc
+```
+
 **Coming soon:** a **`marketplace.json`** for this plugin (or the monorepo) will be added so Claude Code can discover it reliably via a marketplace—until then, use **`--plugin-dir`** when auto-detection fails.
 
 ## Cursor install (local)
