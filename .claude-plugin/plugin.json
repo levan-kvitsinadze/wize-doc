@@ -13,9 +13,5 @@
     "notion",
     "business-rules",
     "mcp"
-  ],
-  "commands": "./commands/",
-  "agents": "./agents/",
-  "skills": "./skills/",
-  "mcpServers": "./.mcp.json"
+  ]
 }

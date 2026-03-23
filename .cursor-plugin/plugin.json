@@ -17,14 +17,8 @@
   "category": "documentation",
   "tags": ["workwize", "features", "skills"],
   "skills": "./skills/",
-  "commands": "./commands/",
+  "agents": "./agents/",
+  "commands": ["commands/document.md"],
   "rules": "./rules/",
-  "mcpServers": {
-    "linear": {
-      "url": "https://mcp.linear.app/mcp"
-    },
-    "notion": {
-      "url": "https://mcp.notion.com/mcp"
-    }
-  }
+  "mcpServers": "./.mcp.json"
 }
